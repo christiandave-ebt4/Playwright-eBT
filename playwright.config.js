@@ -12,7 +12,7 @@ module.exports = defineConfig({
 
   // shared settings (applies to all projects unless overridden)
   use: {
-    headless: false,
+    headless: true,
     trace: 'on-first-retry',
   },
 
